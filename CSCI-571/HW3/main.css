@@ -1,0 +1,103 @@
+.header {
+  border-style: solid;
+  border-width: thin;
+
+  text-align: center;
+
+  padding: 10px;
+
+  margin: auto;
+
+  margin-top: 40px;
+
+  width: 665px;
+  height: 132px;
+}
+
+.header .title {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  font-size: 45px;
+
+  margin-bottom: 15px;
+
+  color: #333131;
+
+  font-weight: 370;
+  font-family: serif;
+}
+
+.links {
+  text-align: center;
+}
+
+.links .link {
+  font-style: italic;
+
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  color: gray;
+
+  text-decoration: none;
+
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.selected {
+  color: black !important;
+}
+
+/* .btns .section:hover {
+  color: black;
+} */
+
+.body {
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+}
+
+.keyword {
+  margin-top: 40px;
+  margin-left: 200px;
+  margin-bottom: 0;
+
+  font-family: serif;
+  font-weight: 300;
+}
+
+.frame {
+  margin: 10px;
+
+  text-align: center;
+}
+
+.pic {
+  object-fit: cover;
+
+  width: 374px;
+  height: 374px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer .at {
+  color: grey;
+  font-style: italic;
+  font-family: serif;
+}
+
+.footer .icon {
+  max-width: 25px;
+  max-height: 25px;
+
+  margin: 10px;
+}
